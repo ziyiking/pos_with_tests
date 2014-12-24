@@ -35,3 +35,5 @@ CartItem.prototype.toString = function() {
 CartItem.prototype.toPromotionString = function() {
   return '名称：' + this.item.name + '，数量：' + this.savedCount + this.item.unit;
 };
+
+module.exports = CartItem;

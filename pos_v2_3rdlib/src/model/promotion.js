@@ -12,3 +12,5 @@ Promotion.all = function() {
     ])
   ];
 };
+
+module.exports = Promotion;

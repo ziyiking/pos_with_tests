@@ -22,7 +22,7 @@ Cart.prototype.getTotalAmount = function() {
   });
 
   return totalAmount;
-}
+};
 
 Cart.prototype.getSavedAmount = function() {
   var savedAmount = 0;
@@ -59,3 +59,5 @@ Cart.prototype.toString = function() {
     '节省：' + this.getSavedAmount().toFixed(2) + '(元)\n' +
     '**********************';
 };
+
+module.exports = Cart;

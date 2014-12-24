@@ -1,3 +1,8 @@
+var Scanner = require("./model/scanner");
+var Cart = require("./model/cart");
+var Promotion = require("./model/promotion");
+var PromotionCalculator= require("./model/promotion-calculator");
+
 function printInventory(tags) {
 
   var scanner = new Scanner(Item.all());

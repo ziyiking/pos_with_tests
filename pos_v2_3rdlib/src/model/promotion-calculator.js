@@ -18,4 +18,6 @@ PromotionCalculator.calculateCartItems = function(cartItems, promotions) {
   _.forEach(cartItems, function(cartItem){
     PromotionCalculator.calculate(cartItem, promotions);
   });
-}
+};
+
+module.exports = PromotionCalculator;

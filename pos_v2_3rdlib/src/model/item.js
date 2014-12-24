@@ -15,3 +15,5 @@ Item.all = function() {
     new Item('ITEM000005', '方便面', '袋', 4.50)
     ];
 };
+
+module.exports = Item;
